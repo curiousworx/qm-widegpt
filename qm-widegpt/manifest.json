@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Wide",
+  "version": "1.0.0",
+  "description": "Widens the ChatGPT chat window.",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "css": ["wide.css"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/* Widen ChatGPT conversation content */
+main,
+main * {
+  --thread-content-max-width: 1600px !important;
+  --content-width: 1600px !important;
+}
+
+/* Common ChatGPT message/container widths */
+main .max-w-3xl,
+main .max-w-4xl,
+main .max-w-5xl,
+main [class*="max-w-3xl"],
+main [class*="max-w-4xl"] {
+  max-width: 1600px !important;
+}
+
+/* Composer width */
+form,
+form > div,
+main form {
+  max-width: 1600px !important;
+}
