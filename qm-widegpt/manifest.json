@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Wide",
-  "version": "1.0.0",
-  "description": "Widens the ChatGPT chat window.",
+  "name": "qm-widegpt",
+  "version": "1.1.0",
+  "description": "Toggle ChatGPT width (1200px, 1600px, 95vw).",
+  "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": ["https://chatgpt.com/*"],
-      "css": ["wide.css"]
+      "js": ["content.js"]
     }
   ]
 }
